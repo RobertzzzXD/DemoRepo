@@ -1,0 +1,181 @@
+/*---------------------------------------------------------*/
+
+.title{
+    text-align: center;
+    color: rgb(43, 43, 43);
+    padding: 10px 10px;
+
+}
+
+/*---------------------------------------------------------*/
+
+nav{
+    text-align: center;
+    background: rgb(53, 53, 53);
+    box-shadow: rgb(66, 66, 66) 5px  4px 10px;
+}
+
+/*---------------------------------------------------------*/
+
+
+
+.centered{
+    text-align:center;
+   font-size: 30px;
+   align-items: center;
+   padding: 10px 10px 10px 20px;
+}
+
+/*---------------------------------------------------------*/
+
+
+
+
+.button {
+    background-color: #363636; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor:pointer;
+    border-radius:5%;
+  }
+
+/*---------------------------------------------------------*/
+
+  .button:hover {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+
+  }
+
+/*---------------------------------------------------------*/
+
+.shadow{
+    text-shadow: 2px 2px 3px rgb(70, 70, 70);
+}
+
+/*---------------------------------------------------------*/
+
+.box{
+    
+    background: rgb(53, 53, 53);
+    height: 100px;
+    width: 100px;
+    margin: 30px;
+    padding: 10px;
+    
+}
+
+/*---------------------------------------------------------*/
+
+.flex{
+    border: solid blanchedalmond;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    justify-content: space-between;
+    padding: 15px;
+
+    
+}
+
+/*---------------------------------------------------------*/
+
+.flex2{
+    display: flex;
+    flex-wrap: wrap;
+    margin:20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+/*-----------------------------FLEXBOX CENTERED----------------------------*/
+
+.flexCenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content:center;
+}
+
+/*---------------------------Animations------------------------------*/
+
+
+
+
+/*---------------------------Form------------------------------*/
+
+.row{
+    margin:30px;
+}
+
+.contactBox{
+    display: flex;
+    justify-content: center;
+   
+}
+
+.input-field{
+    margin:20px;
+
+}
+
+.padding{
+    padding:20px;
+}
+
+
+
+.wrapper {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(5, [col] 19% ) ;
+    grid-template-rows: repeat(3, [row] auto  );
+    background-color: #fff;
+    color: #444;
+  }
+
+  .Box {
+    background-color: #444;
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
+    z-index:10;
+
+  }
+
+  .a {
+    grid-column: col 1 / span  2;
+    grid-row: row ;
+  }
+  .b {
+    grid-column: col 4 / span  2 ;
+    grid-row: row ;
+  }
+  .c {
+    grid-column: col/ span 5 ;
+    grid-row: row 2 ;
+  }
+  .d {
+    grid-column: col 2 / span  3 ;
+    grid-row: row 2 ;
+  }
+
+  .e {
+    grid-column: col / span  5;
+    grid-row: row 3;
+  }
+
+  .f {
+    grid-column: col 3 / span 3;
+    grid-row: row 2  ;
+    background-color: rgba(49,121,207, 0.5);
+    z-index: 20;
+  }
